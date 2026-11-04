@@ -1,0 +1,122 @@
+{
+    "MICRON":{
+        "M25P":[
+            ["M25P16",        "0x00202015",    "0x1000000",     ["5000",  "800", "3000",  "800",  "40000",  "17000", "false"], ["SPI X1, 24-bit address"], false],
+            ["M25P32",        "0x00202016",    "0x2000000",     ["5000",  "640", "3000",  "600",  "80000",  "23000", "false"], ["SPI X1, 24-bit address"], false],
+            ["M25P64",        "0x00202017",    "0x4000000",     ["5000", "1400", "3000", "1000", "160000",  "68000", "false"], ["SPI X1, 24-bit address"], false],
+            ["M25P128",       "0x00202018",    "0x8000000",     ["5000",  "500", "3000", "1600", "250000", "130000", "false"], ["SPI X1, 24-bit address"], false],
+            ["MT25Q512",      "0x0020ba20",    "0x20000000",    ["5000",  "700", "3000", "150", "1000000", "200000", "true"], ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X4, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false]
+        ],
+        "N25Q":[
+            ["N25Q32",        "0x0020BA16",    "0x2000000",     ["5000", "500", "3000", "700",  "60000",  "30000", "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["N25Q64",        "0x0020BA17",    "0x4000000",     ["5000", "500", "3000", "700", "120000",  "60000", "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["N25Q128",       "0x0020BA18",    "0x8000000",     ["5000", "500", "3000", "700", "250000", "170000", "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["N25Q256",       "0x0020BA19",    "0x10000000",    ["5000", "500", "3000", "700", "480000", "240000",  "true"],   ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X4, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["N25Q512",       "0x0020BA10",    "0x20000000",    ["5000", "500", "3000", "700", "480000", "240000",  "true"],   ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X4, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false]
+        ]
+    },
+    "GIGA":{
+        "GD25Q":[
+            ["GD25Q80C",      "0x00C84014",    "0x800000",      ["2400", "600", "400",   "50", "10000",   "4000",  "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["GD25Q32C",      "0x00C84016",    "0x2000000",     ["2400", "600", "400",   "50", "120000",  "60000", "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["GD25Q64C",      "0x00C84017",    "0x4000000",     ["2400", "600", "400",   "50", "120000",  "60000", "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["GD25Q128C",     "0x00C84018",    "0x8000000",     ["2400", "600", "400",   "50", "120000",  "60000", "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["GD25Q256D",     "0x00C84019",    "0x10000000",    ["2500", "600", "2000", "220", "260000", "100000",  "true"],   ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X4, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["GD25Q512D",     "0x00C84020",    "0x20000000",    ["2500", "600", "2000", "220", "400000", "180000",  "true"],   ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X4, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false]
+        ],
+        "MD25Q":[
+            ["MD25Q80C",      "0x00C85014",    "0x800000",      ["2400", "600", "400",   "50", "10000",   "4000",  "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false]
+        ],
+		"GD25B":[
+            ["GD25B512ME",    "0x00C8471A",    "0x20000000",    ["2400", "600", "3000", "220", "450000", "150000",  "true"],   ["SPI X1, 32-bit address", "SPI X4, 32-bit address", "SPI X1, 24-bit address", "SPI X4, 24-bit address"], false]
+        ]
+    },
+    "PUYA":{
+        "P25Q":[
+            ["P25Q80H",      "0x00856014",    "0x800000",      ["3000",  "2000", "400",  "50",  "10000",  "4000",  "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false]
+        ]
+    },
+    "WINBOND":{
+        "W25Q":[
+            ["W25Q40CL",      "0x00EF3013",    "0x400000",      ["800",  "400", "1000", "150",   "4000",   "1000", "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["W25Q80",        "0x00EF4014",    "0x800000",      ["3000", "800", "1000", "150",   "6000",   "2000", "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["W25Q16",        "0x00EF4015",    "0x1000000",     ["3000", "400", "2000", "150",  "25000",   "5000", "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["W25Q32",        "0x00EF4016",    "0x2000000",     ["3000", "400", "2000", "150",  "50000",  "10000", "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["W25Q64Q",       "0x00EF4017",    "0x4000000",     ["3000", "400", "2000", "150", "100000",  "20000", "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["W25Q64M",       "0x00EF7017",    "0x4000000",     ["3000", "400", "2000", "150", "100000",  "20000", "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["W25Q128Q",      "0x00EF4018",    "0x8000000",     ["3000", "700", "2000", "150", "200000",  "40000", "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["W25Q128M",      "0x00EF7018",    "0x8000000",     ["3000", "700", "2000", "150", "200000",  "40000", "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["W25Q256",       "0x00EF4019",    "0x10000000",    ["3000", "700", "2000", "150", "400000",  "80000",  "true"],   ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X4, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["W25Q512",       "0x00EF7020",    "0x20000000",    ["3000", "700", "2000", "150", "1000000", "200000", "true"],   ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X4, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["W25M512",       "0x00EF7119",    "0x20000000",    ["3000", "700", "2000", "150", "1000000", "200000", "true"],   ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X4, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false]
+
+        ]
+    },
+    "XMC":{
+        "XM25QH":[
+            ["XM25QH16B",     "0x00204015",    "0x1000000",     ["1500", "400", "1000", "200",   "50000", "10000", "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address"], false],
+            ["XM25QH32B",     "0x00204016",    "0x2000000",     ["3000", "500", "2000", "300",   "50000", "10000", "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address"], false],
+            ["XM25QH64A",     "0x00207017",    "0x4000000",     ["3000", "500", "2000", "300",  "100000", "30000", "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["XM25QH128A",    "0x00207018",    "0x8000000",     ["3000", "500", "2000", "300", "2000000", "60000", "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["XM25QH256B",    "0x00206019",    "0x10000000",    ["3000", "500", "2000", "300", "2000000", "70000", "false"],   ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address"], false]
+        ]
+    },
+    "CYPRESS":{
+        "S25FL":[
+            ["S25FL64",       "0x0016017",     "0x4000000",    ["1200", "300", "2000", "500", "94000",  "30000",  "false"],    ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["S25FL128",      "0x0016018",     "0x8000000",    ["1200", "300", "2000", "500", "180000", "60000",  "false"],    ["SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["S25FL256L",     "0x0016019",     "0x10000000",   ["1200", "300", "2000", "500", "360000", "120000", "true"],     ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X4, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["S25FL256S",     "0x0010219",     "0x10000000",   ["1200", "300", "2000", "500", "360000", "120000", "true"],     ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X4, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false],
+            ["S25FL512",      "0x0010220",     "0x20000000",   ["1200", "300", "2000", "500", "720000", "220000", "true"],     ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X4, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false]
+        ]
+    }, 
+    "ZBIT":{
+        "ZB25VQ":[
+            ["ZB25VQ16",      "0x005E6015",    "0x1000000",     ["1500", "400", "1000", "200", "50000", "10000", "false"],     ["SPI X1, 24-bit address", "SPI X2, 24-bit address"], false],
+            ["ZB25VQ32",      "0x005E4016",    "0x2000000",     ["1500", "400", "2000", "200", "50000", "12000", "false"],     ["SPI X1, 24-bit address", "SPI X2, 24-bit address"], false]
+        ]
+    },
+    "MXIC":{
+        "MX25L":[
+            ["MX25L16",       "0x00C22015",    "0x1000000",     ["3700", "600", "2000", "400", "20000",  "6500",   "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address"], false],
+            ["MX25L32",       "0x00C22016",    "0x2000000",     ["1500", "400", "1000", "300", "30000",  "10000",  "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address"], false],
+            ["MX25L64",       "0x00C22017",    "0x4000000",     ["1500", "400", "2000", "700", "80000",  "50000",  "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address"], false],
+            ["MX25L128",      "0x00C22018",    "0x8000000",     ["1500", "400", "2000", "700", "80000",  "50000",  "false"],   ["SPI X1, 24-bit address", "SPI X2, 24-bit address"], false],
+            ["MX25L256",      "0x00C22019",    "0x10000000",    ["1500", "400", "2000", "700", "400000", "160000", "false"],   ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address"], false],
+            ["MX25L512",      "0x00C2201A",    "0x20000000",    ["1500", "400", "2000", "700", "400000", "160000", "false"],   ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X4, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address", "SPI X4, 24-bit address"], false]
+        ]
+    },
+    "ISSI":{
+        "IS25LP":[
+            ["IS25LP16D",    "0x009D6015",    "0x1000000",     ["500", "100", "1000", "200", "12000", "4000", "false"],       ["SPI X1, 24-bit address", "SPI X2, 24-bit address"], false],
+            ["IS25LP32D",    "0x009D6016",    "0x2000000",     ["500", "100", "1000", "200", "24000", "8000", "false"],       ["SPI X1, 24-bit address", "SPI X2, 24-bit address"], false],
+            ["IS25LP64D",    "0x009D6017",    "0x4000000",     ["500", "100", "1000", "200", "45000", "18000", "false"],      ["SPI X1, 24-bit address", "SPI X2, 24-bit address"], false],
+            ["IS25LP128D",   "0x009D6018",    "0x8000000",     ["500", "100", "1000", "200", "90000", "35000", "true"],       ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address"], false],
+            ["IS25LP256D",   "0x009D6019",    "0x10000000",    ["500", "100", "1000", "200", "180000", "70000", "true"],      ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address"], false],
+            ["IS25LP512M",   "0x009D601A",    "0x20000000",    ["500", "100", "1000", "200", "270000", "80000", "true"],      ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address"], false]
+        ],
+        "IS25WP":[
+            ["IS25WP16D",    "0x009D7015",    "0x1000000",     ["500", "100", "1000", "200", "12000",  "4000",  "false"],     ["SPI X1, 24-bit address", "SPI X2, 24-bit address"], false],
+            ["IS25WP32D",    "0x009D7016",    "0x2000000",     ["500", "100", "1000", "200", "24000",  "8000",  "false"],     ["SPI X1, 24-bit address", "SPI X2, 24-bit address"], false],
+            ["IS25WP64D",    "0x009D7017",    "0x4000000",     ["500", "100", "1000", "200", "45000",  "18000", "false"],     ["SPI X1, 24-bit address", "SPI X2, 24-bit address"], false],
+            ["IS25WP128D",   "0x009D7018",    "0x8000000",     ["500", "100", "1000", "200", "90000",  "35000", "true"],      ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address"], false],
+            ["IS25WP256D",   "0x009D7019",    "0x10000000",    ["500", "100", "4000", "700", "180000", "70000", "true"],      ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address"], false],
+            ["IS25WP512D",   "0x009D701A",    "0x20000000",    ["500", "100", "4000", "700", "270000", "80000", "true"],      ["SPI X1, 32-bit address", "SPI X2, 32-bit address", "SPI X1, 24-bit address", "SPI X2, 24-bit address"], false]
+        ]
+    },
+    "ESMT":{
+        "EN25Q":[
+            ["EN25Q80C",      "0x01C3014",    "0x800000",       ["500", "100", "3000", "400", "20000", "10000", "false"],      ["SPI X1, 24-bit address", "SPI X2, 24-bit address"], false]
+        ]
+    },
+    "ADESTO":{
+        "AT45D":[
+            ["AT45DB081E",    "0x001F2500",    "0x800000",      ["500", "300", "2000", "500", "30000", "15000", "false"],      ["SPI X1, 24-bit address", "SPI X2, 24-bit address"], false]
+        ]
+    },
+    "FENTECH":{
+        "FH25":[
+            ["FH25VQ80D",     "0x005E6014",    "0x800000",      ["500", "300", "2000", "500", "5000", "1500", "false"],        ["SPI X1, 24-bit address", "SPI X2, 24-bit address"], false]
+        ]
+    }
+}

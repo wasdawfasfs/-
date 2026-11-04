@@ -1,0 +1,359 @@
+{
+  "original_files_checked": 10469,
+  "original_changed": [],
+  "original_added": [],
+  "software_self_test": "PASS",
+  "pds_compile": "PASS",
+  "pds_synthesis": "PASS",
+  "pds_place_route": "not rerun; original F136 bit retained",
+  "bitstream_sha256": "fa7ac36afc43f40abc1403d369670bafc64008955a5613905d8e2f5a07bf9153",
+  "source_checks": [
+    {
+      "path": "app/affine_command.py",
+      "method": "Python AST equal",
+      "passed": true
+    },
+    {
+      "path": "app/affine_protocol.py",
+      "method": "Python AST equal",
+      "passed": true
+    },
+    {
+      "path": "app/affine_serial.py",
+      "method": "Python AST equal",
+      "passed": true
+    },
+    {
+      "path": "app/camera_hdmi.py",
+      "method": "Python AST equal",
+      "passed": true
+    },
+    {
+      "path": "app/display_mode.py",
+      "method": "Python AST equal",
+      "passed": true
+    },
+    {
+      "path": "app/frame_export.py",
+      "method": "Python AST equal",
+      "passed": true
+    },
+    {
+      "path": "app/frame_identity.py",
+      "method": "Python AST equal",
+      "passed": true
+    },
+    {
+      "path": "app/frozen_input.py",
+      "method": "Python AST equal",
+      "passed": true
+    },
+    {
+      "path": "app/gamma_control.py",
+      "method": "Python AST equal",
+      "passed": true
+    },
+    {
+      "path": "app/rational_controls.py",
+      "method": "Python AST equal",
+      "passed": true
+    },
+    {
+      "path": "app/view_control.py",
+      "method": "Python AST equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/hdmi/iic_dri.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/hdmi/ms7200_ctl.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/hdmi/ms7210_ctl.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/hdmi/ms72xx_ctl.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/hdmi_new/edid_expected.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/hdmi_new/hdmi_config.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/hdmi_new/i2c_reg16.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/hdmi_new/iic_dri.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/hdmi_new/ms7200_ctl.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/hdmi_new/ms7210_ctl.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/hdmi_new/ms72xx_ctl.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/adaptive_gamma.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_async_fifo.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_cached_read_adapter.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_ddr_arbiters.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_dist_calc_q12.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_frame_manager.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_frame_processor.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_map.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_pango_read_adapter.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_pango_write_adapter.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_stripe_writer.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_texture_cache.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_tile_engine.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_tile_loader.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_tile_sampler.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_tile_worker.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_uart_control.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_video_backend.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_video_capture.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_video_display.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_warp_coordinates.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/affine_write_verify.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/calibrated_fisheye_fullview.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/dist_calc.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/fram_buf.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/HDMI_IN_DDR3_HDMI_OUT_top.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/image_rom.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/newddr3_top.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/rd_buf.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/rd_ctrl.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/rd_fram_buf/rd_fram_buf.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/rd_fram_buf/rd_fram_buf_tb.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/rd_fram_buf/rd_fram_buf_tmpl.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/rd_fram_buf/rtl/ipm2l_sdpram_v1_10_rd_fram_buf.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/remap_test.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/sync_vg.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/uart_frame_export.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/wr_buf.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/wr_cmd_trans.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/wr_ctrl.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/wr_fram_buf/rtl/ipm2l_sdpram_v1_10_wr_fram_buf.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/wr_fram_buf/wr_fram_buf.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/wr_fram_buf/wr_fram_buf_tb.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/wr_fram_buf/wr_fram_buf_tmpl.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    },
+    {
+      "path": "fpga_project/source/rtl/wr_rd_ctrl_top.v",
+      "method": "Verilog non-comment tokens equal",
+      "passed": true
+    }
+  ],
+  "all_project_references_present": true,
+  "vendor_and_dependencies_byte_identical": true,
+  "script_behavior_changes": [
+    "download helper log path moved from verification to logs, create directory if missing",
+    "CMD PDS target fixed to complete PG2L100H-6FBG676 source project",
+    "CMD helper paths updated to scripts/"
+  ],
+  "board_test": "not run; user will test; current board unchanged",
+  "known_warnings": [
+    "Original FIFO IP IDF package metadata FBG484 differs from project FBG676; preserved, not silently regenerated",
+    "Unconstrained input-port synthesis warnings inherited; no new false paths/clock changes"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "retained_python_modules": [
+    "affine_command",
+    "affine_protocol",
+    "affine_serial",
+    "camera_hdmi",
+    "display_mode",
+    "frame_export",
+    "frame_identity",
+    "frozen_input",
+    "gamma_control",
+    "rational_controls",
+    "view_control"
+  ],
+  "excluded_python_modules": [
+    "affine_panel",
+    "animate_affine",
+    "gamma_control_gui",
+    "preprocess_check"
+  ],
+  "removed_categories": [
+    "old exports and frozen captures except one Reference input",
+    "historical verification scripts and logs",
+    "backup RTL/EDID files",
+    "PDS generated databases and logs",
+    "old PDS entry points",
+    "stale application locks and command/status files",
+    "Python bytecode caches"
+  ],
+  "original_file_count": 10469,
+  "annotated_project_files": 60
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "params.txt",
+    "source": "D:\\jiyu\\qvan\\houxu\\v02_rational_newparams\\params.txt",
+    "sha256": "EE007232F00B74BEB24F30DCA4F8B302B152525740D0CCC86ED523EAB346ACA5"
+  },
+  {
+    "file": "dist_params.vh",
+    "source": "D:\\jiyu\\qvan\\houxu\\v02_rational_newparams\\dist_params.vh",
+    "sha256": "FADD63530781AF102EA51CBF981F4BC7D3BE7EE290E62B8E1E10CB0BD1AB79E3"
+  },
+  {
+    "file": "s_lut(1).hex",
+    "source": "D:\\jiyu\\qvan\\houxu\\v02_rational_newparams\\s_lut(1).hex",
+    "sha256": "9D7E6C93E8BE632EC886752E95C9E85D985A03D444B57E7CCA709A065F156E2D"
+  },
+  {
+    "file": "s_lut_v02_mode9eq.hex",
+    "source": "D:\\jiyu\\qvan\\houxu\\v02_rational_newparams\\s_lut_v02_mode9eq.hex",
+    "sha256": "B5FD5C16DCBFC11270B7E07EE21178A25CC4DAA89E9B210CD74807ACC80F41C8"
+  }
+]

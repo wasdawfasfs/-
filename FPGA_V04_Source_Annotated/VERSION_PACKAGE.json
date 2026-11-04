@@ -1,0 +1,20 @@
+{
+  "version": "V04_SOURCE_ANNOTATED_F136",
+  "firmware": "F136",
+  "bitstream": {
+    "sha256": "fa7ac36afc43f40abc1403d369670bafc64008955a5613905d8e2f5a07bf9153",
+    "bytes": 3791112
+  },
+  "timing_met": true,
+  "build": "D:\\jiyu\\qvan\\builds\\v04_f136_refine_20261103_011655",
+  "quality_acceptance": "board_fixed_input_reference_passed",
+  "baseline": "V03/F134 unchanged",
+  "quality_evidence": "verification/adaptive_quality/board_analysis.json",
+  "original_protected_files_verified": 4673,
+  "fps30_verified": false,
+  "source_package": "E:/FPGA_V04_Adaptive_Quality",
+  "annotation_only": true,
+  "annotated_compile_verified": true,
+  "annotated_synthesis_verified": true,
+  "bitstream_origin": "unchanged original V04 F136 bitstream; no new PNR"
+}
